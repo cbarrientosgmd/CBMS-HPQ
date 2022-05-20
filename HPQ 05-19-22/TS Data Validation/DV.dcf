@@ -1,0 +1,29 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=DV
+Name=DV_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=07EE7CBCCCAAADF035B6C258DAE1B0B1279D9A9ABDFA886D9731DD8799B51CF1
+
+[Level]
+Label=DV Level
+Name=DV_LEVEL
+
+[IdItems]
+
+[Item]
+Label=DV Identification
+Name=DV_ID
+Start=2
+Len=1
+DataType=Numeric
+
+[Record]
+Label=DV Record
+Name=DV_REC
+RecordTypeValue='1'
+RecordLen=1

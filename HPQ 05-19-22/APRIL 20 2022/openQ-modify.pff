@@ -1,0 +1,32 @@
+[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+ShowInApplicationListing=Hidden
+
+[Files]
+Application=.\HPQF2.ent
+InputData=..\Data\H0300808003007000400100010002.csdbe|password=1234
+Paradata=.\HPQF2.cslog
+
+[DataEntryInit]
+StartMode=Modify
+Key=0300808003007000400100010002
+Lock=Verify,Delete,Add
+AutoAdd=No
+
+[UserFiles]
+lookFile=
+
+[Parameters]
+REG=03
+PRV=008
+MUN=08
+BGY=003
+EA=007000
+BSN=0001
+HSN=0001
+HUSN=0002
+GEOTAG=1
+Lat=121.03936158078221
+Long=14.642447554325136
+NUMBER_VISIT=1

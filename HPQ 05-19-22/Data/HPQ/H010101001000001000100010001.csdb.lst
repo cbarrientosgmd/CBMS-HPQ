@@ -1,0 +1,199 @@
+﻿Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 13, 2022
+Start Time      10:15:07
+End Time        10:15:07Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 13, 2022
+Start Time      10:16:00
+End Time        10:16:00Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 13, 2022
+Start Time      10:17:04
+End Time        10:17:17
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 14, 2022
+Start Time      11:35:14
+End Time        11:35:21
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 14, 2022
+Start Time      11:42:54
+End Time        11:43:14
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 14, 2022
+Start Time      20:42:53
+End Time        20:45:30
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2-v.1.0.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 14, 2022
+Start Time      20:45:37
+End Time        20:45:37Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2-v.1.0.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:25:03
+End Time        12:25:03Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2-v.1.0.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:26:10
+End Time        12:26:10Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:27:18
+End Time        12:27:18Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:28:58
+End Time        12:28:58Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQ-F2 Version 1.1.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQ-F2 Version 1.1.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:32:01
+End Time        12:37:49
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   34088           3         Invalid subscript: %s(%d) -- %p                                                            
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4516           1      -  Last name is required.                                                                    -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQ-F2 Version 1.1.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQ-F2 Version 1.1.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:38:12
+End Time        12:41:45
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   34088           1         Invalid subscript: %s(%d) -- %p                                                            
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 17, 2022
+Start Time      12:42:07
+End Time        12:42:25
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H010101001000001000100010001.csdb
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 18, 2022
+Start Time      16:54:31
+End Time        17:15:42
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   34088           2         Invalid subscript: %s(%d) -- %p                                                            
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

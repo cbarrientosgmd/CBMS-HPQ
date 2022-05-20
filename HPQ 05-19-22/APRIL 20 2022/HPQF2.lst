@@ -1,0 +1,80 @@
+﻿Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      09:24:46
+End Time        09:24:57
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      22:29:36
+End Time        22:30:06
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           2         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           2         Operator entered a value out of range                                                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      23:39:00
+End Time        23:39:06
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      23:39:43
+End Time        23:40:01
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           2         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           2         Operator entered a value out of range                                                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

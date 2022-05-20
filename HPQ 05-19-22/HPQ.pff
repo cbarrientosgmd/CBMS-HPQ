@@ -1,0 +1,13 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\HPQ.ent
+InputData=|type=None
+
+[UserFiles]
+forApp=
+
+[Parameters]
+NUMBER_VISIT=1

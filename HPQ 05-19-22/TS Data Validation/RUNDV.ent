@@ -1,0 +1,22 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=RUNDV
+Name=RUNDV
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+[External Dictionaries]
+File=.\HPQ-F2 Version 1.1.dcf
+[AppCode]
+File=.\RUNDV.ent.apc
+[Message]
+File=.\RUNDV.ent.mgf
+[Reports]
+DATAVALIDATION=.\DataValidation.html
+[Help]
+File=.\RUNDV.ent.qsf
+[Forms]
+File=.\RUNDV.fmf
+[Dictionary Types]
+Dict-Type=.\DV.dcf,Input,.\RUNDV.fmf
+Dict-Type=.\HPQ-F2 Version 1.1.dcf,External

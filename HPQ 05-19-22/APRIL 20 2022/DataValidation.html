@@ -1,0 +1,344 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
+
+    <link rel="stylesheet" href="/external/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/external/bootstrap/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/css/reports.css" />
+
+    <script src="/external/jquery/jquery.min.js"></script>
+    <script src="/external/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Report properties-->
+    <?
+    string date_time = concat("Date-Time Generated: ", edit("99/99/9999",sysdate("MMDDYYYY"))," ",edit("99:99:99",systime()));
+	string report_title = "CBMS Form 2 - Data Validation Check";
+    string PSA = "Philippine Statistics Authority";
+    string CBMS = "Community-Based Monitoring System(CBMS) - Household Profile Questionnaire (HPQ)"; 
+	string REGION = edit("99",REG_PSGC);
+	string PROVINCE = edit("99",PROV_PSGC);
+	string MUNICIPALITY = edit("99",CITY_MUN_PSGC);
+	string BARANGAY = edit("999",BRGY_PSGC);
+	string EAREA = edit("999999",EAN);
+	string BUILDING = edit("9999",BSN);
+	string HOUSING = edit("9999",HSN);
+	string HUNIT = edit("9999",HUSN);
+	string caseid = concat(edit("99",PROV_PSGC),edit("99",CITY_MUN_PSGC),edit("999",BRGY_PSGC),edit("999999",EAN),edit("9999",BSN),edit("9999",HSN),edit("9999",HUSN));
+	string HH = Concat(strip(toupper(A01_FIRSTNAME(1))), strip(toupper(A01_LSTNAME(1))));
+	list string report_sections;
+    report_sections.add("Data Validation");
+    report_sections.add("Error Summary");
+
+    ?>
+
+    <title >~~report_title~~</title>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <!-- Report content -->
+
+
+    <sections>
+        <!--Section 1-->
+        <div class="row">
+            <div class="col-md-12">
+				<p style="font-weight:bold;">BSN: ~~BUILDING~~, HSN: ~~HOUSING~~, HUSN: ~~HUNIT~~<br>
+				Household Name: ~~HH~~<br>
+                Case ID: ~~caseid~~  </p>               
+                <br />
+				
+			<table class="table table-responsive-md table-bordered">
+				 <thead>
+					<tr class="text-center">
+					  <th scope="col">IND</th>
+					  <th scope="col">LNO</th>
+					  <th class="col-md-3">DISPLAY VARIABLES</th>
+					  <th scope="col-md-2">DATA_ITEM1</th>
+					  <th scope="col-md-2">DATA_ITEM2</th>
+					  <th scope="col-md-2">ERRORCODE</th>
+					  <th scope="col-md-3">ERROR MESSAGE(s)</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<? do numeric ctr = 1 while ctr <= display_tInd.length() ?>
+						<tr>
+						<td class="text-center" fitem="" href="#s~~ctr~~">~~display_tInd(ctr)~~ </td>
+						<td class="text-center">~~display_tLno(ctr)~~</td>
+						<td>~~display_tDispVar(ctr)~~</td>
+						<td class="text-center"><a href="#" onClick="scips('~~display_tDataItem1(ctr)~~')">~~display_tDataItem1(ctr)~~</a></td>
+						
+						<? if display_tDataItem2(ctr) = "--" then ?> 
+						<td class="text-center">~~display_tDataItem2(ctr)~~</td>						
+						<? else ?>
+							<td class="text-center"><a href="#" onClick="scips('~~display_tDataItem2(ctr)~~')">~~display_tDataItem2(ctr)~~</a></td>						
+						 <? endif; ?>
+						<td>~~display_tErrorcode(ctr)~~</td>
+						<td>~~display_terrmsg(ctr)~~</td>
+						</trr>               
+					<? enddo; ?>
+				  </tbody>
+			</table>
+
+		   </div>
+            <div class="col-md-4 text-center">                
+            </div>
+        </div>
+		
+
+        <!--Add more section content here-->
+		
+		<div class="row bg-grey">
+            <div class="col-md-12">
+                <h4>DATA VALIDATION: ERROR SUMMARY</h4>
+                <table class="table table-responsive-md table-bordered">
+				 <thead>
+					<tr class="text-center">
+					  <th scope="col">SECTION</th>
+					  <th scope="col">ERROR COUNT</th>
+					  <th scope="col">IND: ERROR (E)</th>
+					  <th scope="col">IND: WARNING (W)</th>
+					</tr>
+				  </thead>
+				  <tbody>						
+						<? if countIntSummary > 0 then  ?>
+						<tr>
+						<td class="text-center"> Interview Summary </td>
+						<td class="text-center">~~countIntSummary~~</td>
+						<td class="text-center">~~countInd_E_Int~~</td>
+						<td class="text-center">~~countInd_W_Int~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountA > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section A </td>
+						<td class="text-center">~~countA~~</td>
+						<td class="text-center">~~countInd_E_A~~</td>
+						<td class="text-center">~~countInd_W_A~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountB > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section B </td>
+						<td class="text-center">~~countB~~</td>
+						<td class="text-center">~~countInd_E_B~~</td>
+						<td class="text-center">~~countInd_W_B~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountC > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section C </td>
+						<td class="text-center">~~countC~~</td>
+						<td class="text-center">~~countInd_E_C~~</td>
+						<td class="text-center">~~countInd_W_C~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountD > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section D </td>
+						<td class="text-center">~~countD~~</td>
+						<td class="text-center">~~countInd_E_D~~</td>
+						<td class="text-center">~~countInd_W_D~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountE > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section E </td>
+						<td class="text-center">~~countE~~</td>
+						<td class="text-center">~~countInd_E_E~~</td>
+						<td class="text-center">~~countInd_W_E~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountF > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section F </td>
+						<td class="text-center">~~countF~~</td>
+						<td class="text-center">~~countInd_E_F~~</td>
+						<td class="text-center">~~countInd_W_F~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountG > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section G </td>
+						<td class="text-center">~~countg~~</td>
+						<td class="text-center">~~countInd_E_g~~</td>
+						<td class="text-center">~~countInd_W_g~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountH > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section H </td>
+						<td class="text-center">~~countH~~</td>
+						<td class="text-center">~~countInd_E_H~~</td>
+						<td class="text-center">~~countInd_W_H~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountI > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section I </td>
+						<td class="text-center">~~countI~~</td>
+						<td class="text-center">~~countInd_E_I~~</td>
+						<td class="text-center">~~countInd_W_I~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountJ > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section J </td>
+						<td class="text-center">~~countJ~~</td>
+						<td class="text-center">~~countInd_E_J~~</td>
+						<td class="text-center">~~countInd_W_J~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountK > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section K </td>
+						<td class="text-center">~~countK~~</td>
+						<td class="text-center">~~countInd_E_K~~</td>
+						<td class="text-center">~~countInd_W_K~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountL > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section L </td>
+						<td class="text-center">~~countL~~</td>
+						<td class="text-center">~~countInd_E_L~~</td>
+						<td class="text-center">~~countInd_W_L~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountM > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section M </td>
+						<td class="text-center">~~countM~~</td>
+						<td class="text-center">~~countInd_E_M~~</td>
+						<td class="text-center">~~countInd_W_M~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountN > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section N </td>
+						<td class="text-center">~~countN~~</td>
+						<td class="text-center">~~countInd_E_N~~</td>
+						<td class="text-center">~~countInd_W_N~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountO > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section O </td>
+						<td class="text-center">~~countO~~</td>
+						<td class="text-center">~~countInd_E_O~~</td>
+						<td class="text-center">~~countInd_W_O~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountP > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section P </td>
+						<td class="text-center">~~countP~~</td>
+						<td class="text-center">~~countInd_E_P~~</td>
+						<td class="text-center">~~countInd_W_P~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountQ > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section Q </td>
+						<td class="text-center">~~countQ~~</td>
+						<td class="text-center">~~countInd_E_Q~~</td>
+						<td class="text-center">~~countInd_W_Q~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountR > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section R </td>
+						<td class="text-center">~~countR~~</td>
+						<td class="text-center">~~countInd_E_R~~</td>
+						<td class="text-center">~~countInd_W_R~~</td>
+						</tr>
+						<? endif; ?>
+						<? if CountS > 0 then  ?>
+						<tr>
+						<td class="text-center"> Section S </td>
+						<td class="text-center">~~countS~~</td>
+						<td class="text-center">~~countInd_E_S~~</td>
+						<td class="text-center">~~countInd_W_S~~</td>
+						</tr>
+						<? endif; ?>
+						<? if TotErrors > 0 then  ?>
+
+						<tr>
+						<td class="text-center font-weight-bold"> TOTAL </td>
+						<td class="text-center font-weight-bold">~~TotErrors~~</td>
+						<td class="text-center font-weight-bold">~~tote~~</td>
+						<td class="text-center font-weight-bold">~~totw~~</td>
+						</tr>
+
+						<? endif; ?>
+				  </tbody>
+			</table>
+            </div>
+        </div>
+		
+		
+    </sections>
+
+    <!--End report content-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand report-icon" href="#myPage"><img class="img-fluid" alt="Responsive image" src="Images\cbms.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <? do numeric ctr = 1 while ctr <= report_sections.length() ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="#s~~ctr~~">~~report_sections(ctr)~~ <span class="sr-only">(current)</span></a>
+                </li>
+                <? enddo; ?>
+            </ul>
+        </div>
+    </nav>
+	
+	
+	
+	
+
+    <div class="jumbotron text-center" style="background-color:#ddd;">
+        <div>
+			<!-- ADD THE CBMS LOGO -->
+            <a href=""><img src="" /></a>
+        </div>
+        <h1 style="font-size:20px;letter-spacing:2px;font-weight: bold; ">~~report_title~~</h1>
+        <span style="letter-spacing: 2px;">~~CBMS~~</span><br><br>
+        <span style="letter-spacing: 2px;">REG = ~~REGION~~, PRV = ~~PROVINCE~~, MUN = ~~MUNICIPALITY~~, BRGY = ~~BARANGAY~~, EA = ~~EAREA~~ </span><br>
+        <span style="letter-spacing: 2px;">HPQ Version: 1.1.1 </span>
+    </div>
+
+    <? do numeric ctr = 1 while ctr <= report_sections.length() ?>
+    <div id="s~~ctr~~" class="container container-fluid">
+        <script>
+            $('#s~~ctr~~').append($('sections').children().eq(0));
+        </script>
+    </div>
+    <? enddo; ?>
+
+    <script>
+	function scips(data_item) {
+		
+		let input = { 
+            "data_item": data_item
+        }; 
+		
+        CSPro.invokeAsync("scips", JSON.stringify(input)); 
+		setTimeout(function () {
+			CSPro.do('close');
+		}, 1000);
+		
+	}
+        
+    </script>
+
+</body>
+
+</html>

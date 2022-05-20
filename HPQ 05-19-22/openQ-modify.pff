@@ -1,0 +1,33 @@
+[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+ShowInApplicationListing=Hidden
+
+[DataEntryInit]
+StartMode=Modify
+Key=030808003007000400100020004
+Lock=Add,Delete,Verify
+AutoAdd=No
+
+[Files]
+Application=.\HPQF2.ent
+InputData=.\Data\HPQ\H030808003007000400100020004.csdbe|password=1234
+Paradata=.\HPQF2.cslog
+
+[UserFiles]
+lookFile=
+
+[Parameters]
+REG_PSGC=03
+PROV_PSGC=08
+CITY_MUN_PSGC=08
+BRGY_PSGC=003
+EAN=007000
+BSN=0004
+HSN=0002
+HUSN=0004
+GEOTAG=1
+NUMBER_VISIT=1
+Y_LAT=121.03936158078221
+X_LONG=14.642447554325136
+VISIT_NO=1

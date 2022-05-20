@@ -1,0 +1,516 @@
+﻿Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:53:18
+End Time        13:54:45
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4846           1      -  The household head must be 15 years old and above!                                        -
+   11690           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:54:59
+End Time        13:55:00
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:55:14
+End Time        13:55:15
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      14:20:21
+End Time        14:20:23
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      14:21:38
+End Time        14:21:40
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      14:23:15
+End Time        14:24:21
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      14:30:19
+End Time        14:33:03
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100020004.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      09:21:13
+End Time        09:52:45
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      10:13:14
+End Time        10:17:00
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      10:19:41
+End Time        10:20:04
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      10:20:34
+End Time        10:21:10
+
+
+***  has 1 message (0 E / 0 W / 0 U)
+    A    1010 Application error: protected field VISIT_NO is out of range - value is  NOTAPPL
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   91188           1         Unable to 'reenter %s' - target-item field is a skipped field {in %p}                      
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      10:23:32
+End Time        10:23:58
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 22, 2022
+Start Time      10:28:36
+End Time        10:28:52
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      11:35:08
+End Time        11:35:40
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      11:37:27
+End Time        11:37:47
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+     882           1      -  1, 1                                                                                      -
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      11:39:42
+End Time        11:40:08
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      11:40:39
+End Time        11:41:04
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:13:11
+End Time        12:15:44
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:16:03
+End Time        12:22:30
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:22:53
+End Time        12:23:15
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:25:20
+End Time        12:25:50
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           1         Invalid subscript: %s(%s) -- %p                                                            
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:28:08
+End Time        12:28:23
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           1         Invalid subscript: %s(%s) -- %p                                                            
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:28:46
+End Time        12:29:42
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           1         Invalid subscript: %s(%s) -- %p                                                            
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:30:26
+End Time        12:30:41
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           1         Invalid subscript: %s(%s) -- %p                                                            
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:32:18
+End Time        12:32:43
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      12:33:53
+End Time        12:34:28
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      13:36:23
+End Time        13:37:00
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      13:44:43
+End Time        13:45:12
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      13:45:18
+End Time        13:45:27
+
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<Paradata Log>  C:\Users\LIZAMAECRIS\Desktop\CBMS\HPQF2.cslog
+
+Date            Apr 22, 2022
+Start Time      17:13:24
+End Time        17:20:24
+
+
+***  has 1 message (0 E / 0 W / 0 U)
+    A    1010 Application error: protected field H4A_CFINCOME is out of range - value is  NOTAPPL
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   91187           1         Unable to 'reenter %s' - target-item field is a never-keyed field {in %p}                  
+   91188           3         Unable to 'reenter %s' - target-item field is a skipped field {in %p}                      
+
+
+A compilation error file (HPQF2.ent.err) has been created for your application.
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

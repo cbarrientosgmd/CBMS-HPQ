@@ -1,0 +1,24 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=HPQ_F2
+Name=HPQ_F2
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+ShowFieldLabels=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ShowRefusals=No
+[AppCode]
+File=.\HPQ-F2 Version 1.1.ent.apc
+[Message]
+File=.\HPQ-F2 Version 1.1.ent.mgf
+[Reports]
+DATAVALIDATION=.\DataValidation.html
+[Help]
+File=.\HPQ-F2 Version 1.1.ent.qsf
+[Forms]
+File=.\HPQ-F2 Version 1.1.fmf
+[Dictionary Types]
+Dict-Type=.\HPQ-F2 Version 1.1.dcf,Input,.\HPQ-F2 Version 1.1.fmf

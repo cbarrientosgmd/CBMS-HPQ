@@ -1,0 +1,42 @@
+﻿Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010001.csdbe
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      12:07:52
+End Time        12:07:58
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010001.csdbe
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      12:08:39
+End Time        12:10:21
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           1         Invalid subscript: %s(%s) -- %p                                                            
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4701           1      -  Last name is required.                                                                    -
+    4846           1      -  The household head must be 15 years old and above!                                        -
+   11690           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

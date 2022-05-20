@@ -1,0 +1,46 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=DV_FF
+Label=RUNDV
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\DV.dcf
+  
+[Form]
+Name=FORM000
+Label=DV Level
+Level=1
+Size=342,111
+  
+Item=DV_ID
+  
+[EndForm]
+  
+[Level]
+Name=DV_LEVEL
+Label=DV Level
+  
+[Group]
+Required=Yes
+Name=DV_LEVEL_FORM
+Label=DV Level
+Form=1
+Max=1
+  
+[Field]
+Name=DV_ID
+Position=302,66,317,86
+Item=DV_ID,DV_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=120,69,225,85
+Text=DV Identification
+ 
+[EndGroup]
+  

@@ -1,0 +1,54 @@
+﻿Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808004005000000100010001.csdbe
+<File>          forApp=
+
+Date            Apr 21, 2022
+Start Time      10:28:52
+End Time        10:31:31
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1008           3         Invalid subscript: %s(%s) -- %p                                                            
+   34088           1         Invalid subscript: %s(%d) -- %p                                                            
+   91187           1         Unable to 'reenter %s' - target-item field is a never-keyed field {in %p}                  
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+   11730           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808004005000000100010001.csdbe
+<File>          forApp=
+
+Date            Apr 21, 2022
+Start Time      10:38:12
+End Time        10:40:01
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           2         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   92101           2         Case ids '%s' duplicate an existing case! Case ids must be unique.                         
+   99990           2         Operator entered a value out of range                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+   11730           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

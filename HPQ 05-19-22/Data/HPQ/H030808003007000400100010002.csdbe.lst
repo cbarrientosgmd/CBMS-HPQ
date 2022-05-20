@@ -1,0 +1,133 @@
+﻿Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      12:53:12
+End Time        12:54:22
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4846           1      -  The household head must be 15 years old and above!                                        -
+   11690           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      12:54:36
+End Time        12:54:38
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      12:55:18
+End Time        12:55:45
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:36:40
+End Time        13:36:45
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:36:56
+End Time        13:36:58
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:40:30
+End Time        13:40:32
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:40:37
+End Time        13:40:38
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.ent
+Type            ENTRY
+Input Data      <<Encrypted CSPro DB>> /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/Data/HPQ/H030808003007000400100010002.csdbe
+<Paradata Log>  /storage/emulated/0/Android/data/gov.census.cspro.csentry/files/csentry/CBMS/HPQF2.cslog
+<File>          forApp=
+
+Date            Apr 20, 2022
+Start Time      13:45:18
+End Time        13:47:23
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   92101           1         Case ids '%s' duplicate an existing case! Case ids must be unique.                         
+   99990           1         Operator entered a value out of range                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4846           1      -  The household head must be 15 years old and above!                                        -
+   11690           1      -  CSEntry will exit                                                                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

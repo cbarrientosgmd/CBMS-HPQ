@@ -1,0 +1,140 @@
+﻿Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample2.csdb
+
+Date            Apr 22, 2022
+Start Time      08:47:35
+End Time        08:47:51
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample2.csdb
+
+Date            Apr 22, 2022
+Start Time      08:48:56
+End Time        08:49:02
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample3.csdb
+
+Date            Apr 22, 2022
+Start Time      08:51:05
+End Time        08:51:10
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample3.csdb
+
+Date            Apr 22, 2022
+Start Time      08:54:05
+End Time        08:54:21
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   91182           1         Unable to 'reenter %s' - target-item has no field {in %p}                                  
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample3.csdb
+<File>          forapp=
+
+Date            Apr 22, 2022
+Start Time      09:49:58
+End Time        09:50:09
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\sample3.csdb
+<File>          forapp=
+
+Date            Apr 22, 2022
+Start Time      09:51:22
+End Time        09:51:26
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<File>          forapp=
+
+Date            Apr 22, 2022
+Start Time      10:05:00
+End Time        10:05:06
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<File>          forapp=
+
+Date            Apr 22, 2022
+Start Time      10:06:44
+End Time        10:06:59
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+-2147483648           1      -  No text provided for message -2147483648                                                  -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\Users\LIZAMAECRIS\Desktop\CBMS\TS Data Validation\RUNDV.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        HPQF2_DICT=<<Encrypted CSPro DB>> C:\Users\LIZAMAECRIS\Desktop\CBMS\Data\HPQ\H030808003007000400100020004.csdbe
+<File>          forapp=
+
+Date            Apr 22, 2022
+Start Time      10:08:42
+End Time        10:08:53
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    4343           1      -  03                                                                                        -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

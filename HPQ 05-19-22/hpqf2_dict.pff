@@ -1,0 +1,12 @@
+﻿[Run Information]
+Version=7.7
+AppType=Sync
+
+[ExternalFiles]
+HPQF2_DICT=hpqf2_dict.csdb
+
+[Parameters]
+SyncDirection=Get
+SyncType=CSWeb
+SyncUrl=http://csentry.psa.gov.ph/cbms/api/
+Silent=No
